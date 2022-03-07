@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercitando</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid rgb(0, 0, 0) ;
+            padding: 10px;
+            
+        }
+
+        thead, tfoot{
+            background-color: rgb(6, 64, 139);
+        }
+
+        caption{
+            background-color: rgb(123, 184, 235);
+            padding: 10px;
+        }
+        td.num{
+            text-align: right;
+        }
+        tbody> tr:nth-child(odd){
+                background-color: rgb(146, 182, 189);
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando Tabelas</h1>
+    <table>
+        <caption><strong>África Meridional</strong></caption>
+        <thead>
+            <tr>
+                <th scope="col">País</th>
+                <th style="width: 100px
+                ;" scope="col">Extensão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>África do Sul</td>
+                <td class="num">1 221 037</td>
+
+            </tr>
+            <tr>
+                <td>Angola</td>
+                <td class="num">1 246 700</td>
+            </tr>
+            <tr>
+                <td>Botswana</td>
+                <td class="num">600 372</td>
+            </tr>
+            <tr>
+                <td>Comores</td>
+                <td class="num">2171</td>
+
+            </tr>
+            <tr>
+                <td>Lesoto</td>
+                <td class="num">30 355</td>
+            </tr>
+            <tr>
+                <td>Madagáscar</td>
+                <td class="num">587 041</td>
+            </tr>
+            <tr>
+                <td>Malawi</td>
+                <td class="num">119 484</td>
+            </tr>
+            <tr>
+                <td>Maurícia</td>
+                <td class="num">2045</td>
+            </tr>
+            <tr>
+                <td>Moçambique</td>
+                <td class="num">801 590</td>
+            </tr>
+            <tr>
+                <td>Namíbia</td>
+                <td class="num">824 292</td>
+            </tr>
+            <tr>
+                <td>Suazilândia</td>
+                <td class="num">17 363</td>
+            </tr>
+            <tr>
+                <td>Zâmbia</td>
+                <td class="num">752 614</td>
+            </tr>
+            <tr>
+                <td>Zimbabwe</td>
+                <td class="num">390 580</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de paises</th>
+                <td class="num"><strong>13</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    
+</body>
+</html>
